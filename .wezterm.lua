@@ -10,4 +10,6 @@ config.font = wezterm.font("Cascadia Code NF")
 config.font_size = 16
 config.harfbuzz_features = { "zero" }
 
+config.color_scheme = "Catppuccin Mocha"
+
 return config
