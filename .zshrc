@@ -13,6 +13,8 @@ alias AstroNvim="NVIM_APPNAME=AstroNvim nvim"
 alias LazyVim="NVIM_APPNAME=LazyVim nvim"
 alias NvChad="NVIM_APPNAME=NvChad nvim"
 
+alias tmux="tmux attach || tmux new -s main"
+
 if [ -z "$TMUX" ]; then
-  tmux attach || tmux new -s main
+  tmux
 fi
